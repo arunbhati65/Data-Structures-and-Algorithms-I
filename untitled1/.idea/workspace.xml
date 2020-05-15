@@ -36,9 +36,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.LocalMin">
+  <component name="RunManager" selected="Application.MaxCountZeroMatrix">
     <configuration name="LocalMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Searching.LocalMin" />
+      <module name="dataStructureRegression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxCountZeroMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Searching.MaxCountZeroMatrix" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
@@ -88,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxCountZeroMatrix" />
         <item itemvalue="Application.LocalMin" />
         <item itemvalue="JUnit.HeapTest.testHeapFunc" />
         <item itemvalue="Application.minCoinTopDown" />
@@ -137,22 +151,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589539844404" />
-    <state width="1493" height="138" key="GridCell.Tab.0.bottom" timestamp="1589560988399">
+    <state width="1493" height="103" key="GridCell.Tab.0.bottom" timestamp="1589568107045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589560988399" />
-    <state width="1493" height="138" key="GridCell.Tab.0.center" timestamp="1589560988398">
+    <state width="1493" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589568107045" />
+    <state width="1493" height="103" key="GridCell.Tab.0.center" timestamp="1589568107044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589560988398" />
-    <state width="1493" height="138" key="GridCell.Tab.0.left" timestamp="1589560988398">
+    <state width="1493" height="103" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589568107044" />
+    <state width="1493" height="103" key="GridCell.Tab.0.left" timestamp="1589568107044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589560988398" />
-    <state width="1493" height="138" key="GridCell.Tab.0.right" timestamp="1589560988398">
+    <state width="1493" height="103" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589568107044" />
+    <state width="1493" height="103" key="GridCell.Tab.0.right" timestamp="1589568107044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589560988398" />
+    <state width="1493" height="103" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589568107044" />
     <state width="1493" height="30" key="GridCell.Tab.1.bottom" timestamp="1589560811996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
