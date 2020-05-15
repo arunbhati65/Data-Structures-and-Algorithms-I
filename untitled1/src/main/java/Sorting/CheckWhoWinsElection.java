@@ -1,6 +1,6 @@
 package main.java.Sorting;
 
-import Heap.myheap.MaxHeap;
+import main.java.Heap.MaxHeap;
 
 public class CheckWhoWinsElection {
 
