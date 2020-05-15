@@ -1,7 +1,7 @@
 package main.java.Stack;// Java linear time solution for stock span problem
 
-import java.util.Stack;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class Span {
     // A stack based efficient method to calculate

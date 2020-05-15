@@ -2,9 +2,10 @@ package main.java.Graph.prims;
 
 // Java program for Prim's MST for
 // adjacency list representation of graph
+
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.TreeSet;
-import java.util.Comparator;
 
 public class geeks {
     class node1 {

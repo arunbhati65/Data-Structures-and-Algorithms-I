@@ -1,4 +1,4 @@
-package main.java.List;
+package main.java.ListImpl;
 
 // Java program to partition a
 // linked list around a given value.

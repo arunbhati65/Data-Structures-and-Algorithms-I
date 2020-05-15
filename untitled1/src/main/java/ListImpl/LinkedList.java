@@ -1,4 +1,4 @@
-package main.java.List;// Java program to swap elements of linked list by changing links
+package main.java.ListImpl;// Java program to swap elements of linked list by changing links
 
 class LinkedList {
 

@@ -1,4 +1,4 @@
-package main.java.List;
+package main.java.ListImpl;
 
 public class CircularLinkedList {
     protected CLLNode tail;
@@ -24,7 +24,8 @@ public class CircularLinkedList {
     }
 
     public void addDataToHead(String data) {
-        CLLNode temp = CLLNode.builder().data(data).build();
+        CLLNode temp = new CLLNode();
+        temp.setData(data);
         if (tail == null) {//first data added
             tail = temp;
             this.setHead(tail);
@@ -36,7 +37,8 @@ public class CircularLinkedList {
     }
 
     public void addDataToTail(String data) {
-        CLLNode temp = CLLNode.builder().data(data).build();
+        CLLNode temp = new CLLNode();
+        temp.setData(data);
         if (tail == null) {//first data added
             tail = temp;
             this.setHead(tail);
@@ -48,11 +50,13 @@ public class CircularLinkedList {
     }
 
     public CLLNode generateCLL() {
-        CLLNode tail = CLLNode.builder().data("0").build();
+        CLLNode tail = new CLLNode();
+        tail.setData("0");
         int length = 0;
         CLLNode currentNode = tail;
         while (length <= 2) {
-            CLLNode newNode = CLLNode.builder().data((length + 1) + "").build();
+            CLLNode newNode = new CLLNode();
+            newNode.setData((length + 1) + "");
             if (length == 2) {
                 currentNode.setNext(tail);
             } else {

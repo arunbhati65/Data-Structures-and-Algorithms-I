@@ -1,4 +1,4 @@
-package Heap.myheap;
+package main.java.Heap.myheap;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

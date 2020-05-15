@@ -1,4 +1,4 @@
-package List;
+package main.java.ListImpl;
 
 import lombok.Getter;
 import lombok.Setter;
