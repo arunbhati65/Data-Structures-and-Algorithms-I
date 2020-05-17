@@ -23,11 +23,10 @@ public class MergeKLists {
             current = current.next;
             if (head == null) {
                 head = top;
-                last = top;
             } else {
                 last.next = top;
-                last = top;
             }
+            last = top;
         }
         return head;
     }
