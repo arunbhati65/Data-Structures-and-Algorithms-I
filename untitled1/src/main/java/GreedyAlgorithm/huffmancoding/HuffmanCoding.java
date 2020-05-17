@@ -27,6 +27,19 @@ public class HuffmanCoding {
     }
 
     private static void printBinaryRepersentation(HuffmanNode root) {
+        inorderTraversal(root, "");
+    }
+
+    private static void inorderTraversal(HuffmanNode root, String s) {
+        if (root == null) {
+            return;
+        }
+        inorderTraversal(root.left, s + "0");
+        inorderTraversal(root.right, s + "1");
+        if(root.letter!=null){
+            System.out.println(root.letter+"-"+s+"\n");
+        }
+
     }
 
     public static void main(String args[]) {

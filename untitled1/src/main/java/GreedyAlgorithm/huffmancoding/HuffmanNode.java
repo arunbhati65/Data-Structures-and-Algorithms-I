@@ -2,7 +2,7 @@ package main.java.GreedyAlgorithm.huffmancoding;
 
 public class HuffmanNode implements Comparable<HuffmanNode>{
     int freq;
-    char letter;
+    Character letter;
 
     HuffmanNode left;
     HuffmanNode right;
