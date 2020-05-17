@@ -34,9 +34,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.HuffmanCoding">
+  <component name="RunManager" selected="Application.MergeKLists">
     <configuration name="DuchNationalFlag_TwoColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Searching.DuchNationalFlag_TwoColor" />
       <module name="dataStructureRegression" />
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCountZeroMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Searching.MaxCountZeroMatrix" />
+    <configuration name="MergeKLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Heap.MergeKLists" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.Searching.DuchNationalFlag_TwoColor" />
+          <option name="PATTERN" value="main.java.Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKLists" />
         <item itemvalue="Application.HuffmanCoding" />
         <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.DuchNationalFlag_TwoColor" />
         <item itemvalue="Application.LocalMin" />
-        <item itemvalue="Application.MaxCountZeroMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -154,38 +155,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589539844404" />
-    <state width="1493" height="551" key="GridCell.Tab.0.bottom" timestamp="1589712266028">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1589721699785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="551" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589712266028" />
-    <state width="1493" height="551" key="GridCell.Tab.0.center" timestamp="1589712266028">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589721699785" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1589721699781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="551" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589712266028" />
-    <state width="1493" height="551" key="GridCell.Tab.0.left" timestamp="1589712266027">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589721699781" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1589721699780">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="551" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589712266027" />
-    <state width="1493" height="551" key="GridCell.Tab.0.right" timestamp="1589712266028">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589721699780" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1589721699783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="551" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589712266028" />
-    <state width="1493" height="30" key="GridCell.Tab.1.bottom" timestamp="1589691889722">
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589721699783" />
+    <state width="1493" height="30" key="GridCell.Tab.1.bottom" timestamp="1589721695476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="30" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589691889722" />
-    <state width="1493" height="30" key="GridCell.Tab.1.center" timestamp="1589691889722">
+    <state width="1493" height="30" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589721695476" />
+    <state width="1493" height="30" key="GridCell.Tab.1.center" timestamp="1589721695476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="30" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589691889722" />
-    <state width="1493" height="30" key="GridCell.Tab.1.left" timestamp="1589691889721">
+    <state width="1493" height="30" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589721695476" />
+    <state width="1493" height="30" key="GridCell.Tab.1.left" timestamp="1589721695476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="30" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589691889721" />
-    <state width="1493" height="30" key="GridCell.Tab.1.right" timestamp="1589691889722">
+    <state width="1493" height="30" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589721695476" />
+    <state width="1493" height="30" key="GridCell.Tab.1.right" timestamp="1589721695476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="30" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589691889722" />
+    <state width="1493" height="30" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589721695476" />
     <state x="584" y="347" key="ReplaceDuplicatesPrompt" timestamp="1589560396245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
