@@ -16,7 +16,7 @@ public class MiddleHeap {
 
     public void printAll(){
         maxHeap.printAll();
-        minHeap.printAll();
+        minHeap.printAll(minHeap.getArr());
 
     }
 
@@ -60,7 +60,7 @@ public class MiddleHeap {
         if ((double) ((maxHeap.size + minHeap.size) % 2) > 0.0) {
             System.out.println(maxHeap.maxdelete(0));
         } else {
-            System.out.println(maxHeap.maxdelete(0) +" & "+ minHeap.mindelete(0));
+            System.out.println(maxHeap.maxdelete(0) +" & "+ minHeap.Mindelete(0));
         }
     }
 

@@ -4,7 +4,7 @@ package main.java.Searching;
 //O(logn) algorithm to find a local minimum: an index i such that A[i – 1] < A[i] < A[i + 1].
 public class LocalMin {
     public static void main(String args[]) {
-        int[] arr = {1, 21, 15, 1, 0,4};
+        int[] arr = {1, 21, 15, 1, 12,4};
         System.out.println(arr[getLocalMin(arr, 0, arr.length - 1, true)]);
     }
 

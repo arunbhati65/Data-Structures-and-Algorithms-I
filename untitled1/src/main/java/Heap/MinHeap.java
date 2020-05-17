@@ -1,22 +1,36 @@
 package main.java.Heap;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class MinHeap {
-    int arr[];
-    int size;
-    int capacity;
+    public static Integer arr[];
+    public static int size;
+    public static int capacity;
+
+    public static Integer[] getArr() {
+        return arr;
+    }
+
+    public static void setArr(Integer[] arr) {
+        MinHeap.arr = arr;
+    }
+
+    public static void setSize(int size) {
+        MinHeap.size = size;
+    }
+
+    public static int getCapacity() {
+        return capacity;
+    }
+
+    public static void setCapacity(int capacity) {
+        MinHeap.capacity = capacity;
+    }
 
     public MinHeap() {
 
     }
 
     public MinHeap(int capacity) {
-        this.arr = new int[capacity];
+        this.arr = new Integer[capacity];
         this.size = 0;
         this.capacity = capacity;
     }
@@ -47,7 +61,6 @@ public class MinHeap {
             System.out.println("Size is full");
             return;
         }
-        //bottom to up
         size++;
         arr[size - 1] = newValue;
         int i = size - 1;
@@ -59,12 +72,12 @@ public class MinHeap {
         }
     }
 
-
-    public void printAll() {
-        for (int i = 0; i < size; ++i) {
-            System.out.print(arr[i] + " ");
+    public static void printAll(Integer[] arrr) {
+        for (int i = 0; i < arrr.length; ++i) {
+            System.out.print(arrr[i] + " ");
         }
     }
+
 
     public int getMin() {
         return arr[0];
@@ -73,7 +86,7 @@ public class MinHeap {
 
     public int extractMin() {
         if (size == 0) {
-            return Integer.MAX_VALUE;
+            return Integer.MIN_VALUE;
         }
         if (size == 1) {
             size--;
@@ -83,12 +96,12 @@ public class MinHeap {
         arr[0] = arr[size - 1];
         arr[size - 1] = temp;
         size--;
-        minHeapify(0);
+        MinHeapify(arr,size,0);
         return arr[size];
     }
 
 
-    public int mindelete(int i) {
+    public int Mindelete(int i) {
         int key;
         if (size < 1) {
             System.out.println("Wrong Position");
@@ -97,65 +110,59 @@ public class MinHeap {
         key = arr[i];
         arr[i] = arr[size - 1];
         size--;
-        minHeapify(i);
+        MinHeapify(arr,size,i);
         return key;
     }
 
-    public void buildMinHeap(int[] arr) {
-        this.arr = arr;
-        this.capacity = arr.length;
-        this.size = arr.length;
+
+    public static void buildMinHeap(Integer[] arrr) {
+        arr = arrr;
+        capacity = arr.length;
+        size = arr.length;
         for (int i = (size - 2) / 2; i >= 0; i--) {
-            minHeapify(i);
+            MinHeapify(arr,size,i);
         }
     }
 
-    public void minHeapSort(int arr[]) {
+
+
+    public static void MinHeapify(Integer[] arrr, int modifiedSize, int i) { //O(logN)
+        int leftIndex = 2*i + 1;
+        int rightIndex = 2*i + 2;
+        int smallest = i;
+        if (leftIndex < modifiedSize && arrr[leftIndex] < arrr[smallest]) {
+            smallest = leftIndex;
+        }
+        if (rightIndex < modifiedSize && arrr[rightIndex] < arrr[smallest]) {
+            smallest = rightIndex;
+        }
+        if (smallest != i) {
+            int temp = arrr[i];
+            arrr[i] = arrr[smallest];
+            arrr[smallest] = temp;
+            MinHeapify(arrr,modifiedSize,smallest);
+        }
+    }
+
+    public static void sort(Integer arr[]) {
         int n = arr.length;
         buildMinHeap(arr);
 
-        for (int k = n - 1; k >= 0; k--) {
+        for (int i = n - 1; i >=1; i--) {
             int temp = arr[0];
-            arr[0] = arr[k];
-            arr[k] = temp;
-            minHeapify(0, k);
+            arr[0] = arr[i];
+            arr[i] = temp;
+            //we are putting the smallest one in the last position and keep decreasing the size
+            MinHeapify(arr, i, 0);
         }
     }
 
-    public void minHeapify(int i, int modifiedSize) { //O(logN)
-        int leftIndex = getLeftChild(i);
-        int rightIndex = getRightChild(i);
-        int smallest = i;
-        if (leftIndex < modifiedSize && arr[leftIndex] < arr[smallest]) {
-            smallest = leftIndex;
-        }
-        if (rightIndex < modifiedSize && arr[rightIndex] < arr[smallest]) {
-            smallest = rightIndex;
-        }
-        if (smallest != i) {
-            int temp = arr[i];
-            arr[i] = arr[smallest];
-            arr[smallest] = temp;
-            minHeapify(smallest);
-        }
+    public static void main(String args[]){
+        Integer[] arr={3,12,1,2,32,12,53,23};
+        sort(arr);
+        printAll(arr);
+
     }
 
 
-    public void minHeapify(int i) { //O(logN)
-        int leftIndex = getLeftChild(i);
-        int rightIndex = getRightChild(i);
-        int smallest = i;
-        if (leftIndex < size && arr[leftIndex] < arr[smallest]) {
-            smallest = leftIndex;
-        }
-        if (rightIndex < size && arr[rightIndex] < arr[smallest]) {
-            smallest = rightIndex;
-        }
-        if (smallest != i) {
-            int temp = arr[i];
-            arr[i] = arr[smallest];
-            arr[smallest] = temp;
-            minHeapify(smallest);
-        }
-    }
 }
