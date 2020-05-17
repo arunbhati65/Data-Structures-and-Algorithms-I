@@ -4,23 +4,22 @@ import java.util.PriorityQueue;
 
 public class MergeKLists {
 
-    public static Node mergeKSortedLists(Node oldHead, int k) {
+    public static Node mergeKSortedLists(Node arr[], int k) {
         Node head = null, last = null;
-        Node current = oldHead;
 
         PriorityQueue<Node> pq = new PriorityQueue<>();
 
-        for (int i = 0; i < k; i++) {
-            pq.add(current);
-            current = current.next;
-        }
+        for (int i = 0; i < k; i++)
+            if (arr[i] != null)
+                pq.add(arr[i]);
 
+        while (!pq.isEmpty()) {
+            Node top = pq.peek();
+            pq.remove();
 
-        while (current.next != null && !pq.isEmpty()) {
-            Node top = pq.poll();
+            if (top.next != null)
+                pq.add(top.next);
 
-            pq.add(current.next);
-            current = current.next;
             if (head == null) {
                 head = top;
             } else {
@@ -38,36 +37,29 @@ public class MergeKLists {
         }
     }
 
+
     public static void main(String args[]) {
         int k = 3;
 
-        Node head = new Node(1);
-        head.next = new Node(3);
-        head.next.next = new Node(5);
-        head.next.next.next = new Node(7);
+        Node arr[] = new Node[k];
 
-        head.next.next.next.next = new Node(2);
-        head.next.next.next.next.next = new Node(4);
-        head.next.next.next.next.next.next = new Node(6);
-        head.next.next.next.next.next.next.next = new Node(8);
+        arr[0] = new Node(1);
+        arr[0].next = new Node(3);
+        arr[0].next.next = new Node(5);
+        arr[0].next.next.next = new Node(7);
 
+        arr[1] = new Node(2);
+        arr[1].next = new Node(4);
+        arr[1].next.next = new Node(6);
+        arr[1].next.next.next = new Node(8);
 
-        Node newHead = mergeKSortedLists(head, k);
-        printList(newHead);
+        arr[2] = new Node(0);
+        arr[2].next = new Node(9);
+        arr[2].next.next = new Node(10);
+        arr[2].next.next.next = new Node(11);
+
+        Node head = mergeKSortedLists(arr, k);
+        printList(head);
     }
 }
 
-class Node implements Comparable<Node> {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-
-    @Override
-    public int compareTo(Node o) {
-        return this.data-o.data;
-    }
-}
