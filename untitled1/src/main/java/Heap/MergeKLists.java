@@ -1,7 +1,6 @@
 package main.java.Heap;
 
 import java.util.PriorityQueue;
-import java.util.Comparator;
 
 public class MergeKLists {
 
@@ -9,11 +8,7 @@ public class MergeKLists {
         Node head = null, last = null;
         Node current = oldHead;
 
-        PriorityQueue<Node> pq = new PriorityQueue<>(new Comparator<Node>() {
-            public int compare(Node a, Node b) {
-                return a.data - b.data;
-            }
-        });
+        PriorityQueue<Node> pq = new PriorityQueue<>();
 
         for (int i = 0; i < k; i++) {
             pq.add(current);
@@ -63,12 +58,17 @@ public class MergeKLists {
     }
 }
 
-class Node {
+class Node implements Comparable<Node> {
     int data;
     Node next;
 
     Node(int data) {
         this.data = data;
         next = null;
+    }
+
+    @Override
+    public int compareTo(Node o) {
+        return this.data-o.data;
     }
 }
