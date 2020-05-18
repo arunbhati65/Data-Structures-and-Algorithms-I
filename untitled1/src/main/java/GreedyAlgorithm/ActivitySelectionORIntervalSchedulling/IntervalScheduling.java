@@ -28,24 +28,15 @@ class Activity implements Comparable<Activity> {
 
 public class IntervalScheduling {
     static void printMaxActivities(Activity arr[]) {
-
         Arrays.sort(arr);
-        List<Activity> listOfSortedActivity =  Arrays.asList(arr);
-        AtomicReference<Activity> prev = new AtomicReference<>();
-        System.out.println(listOfSortedActivity.get(0));
-        listOfSortedActivity.forEach(activity -> {
-            if (prev.get()!=null) {
-                if(activity.start>prev.get().finish){
-                    System.out.println(activity);
-                    prev.set(activity);
-                }
-            }else {
-                prev.set(activity);
+        Activity prev = arr[0];
+        System.out.println(prev);
+        for (int i = 1; i < arr.length; ++i) {
+            if (arr[i].start > prev.finish) {
+                System.out.println(arr[i]);
+                prev = arr[i];
             }
-        });
-
-
-
+        }
     }
 
     public static void main(String args[]) {
