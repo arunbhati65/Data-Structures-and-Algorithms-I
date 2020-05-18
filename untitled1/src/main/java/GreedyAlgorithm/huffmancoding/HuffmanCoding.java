@@ -43,8 +43,8 @@ public class HuffmanCoding {
     }
 
     public static void main(String args[]) {
-        int[] freq = {12, 2, 7, 13, 14, 85};
-        char[] letters = {'a', 'b', 'c', 'd', 'e', 'f'};
+        int[] freq = {12, 2, 7, 13, 14};
+        char[] letters = {'a', 'b', 'c', 'd', 'e'};
         PriorityQueue<HuffmanNode> pq = initializeMinHeap(freq, letters);
         HuffmanNode root = prepareHuffManTree(pq);
         printBinaryRepersentation(root);
