@@ -37,7 +37,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.DivisorGame">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="DivisorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.DynamicProgramming.DivisorGame" />
       <module name="dataStructureRegression" />
@@ -77,19 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Heap.MinHeap1" />
-      <module name="dataStructureRegression" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSortPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Sorting.QuickSortPartition" />
       <module name="dataStructureRegression" />
@@ -103,13 +90,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Arrays.TwoSum" />
+      <module name="dataStructureRegression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.DivisorGame" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSortPartition" />
-        <item itemvalue="Application.MinHeap1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,38 +163,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589539844404" />
-    <state width="1478" height="86" key="GridCell.Tab.0.bottom" timestamp="1590325338670">
+    <state width="1478" height="2" key="GridCell.Tab.0.bottom" timestamp="1590333746363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="86" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590325338670" />
-    <state width="1478" height="86" key="GridCell.Tab.0.center" timestamp="1590325338670">
+    <state width="1478" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590333746363" />
+    <state width="1478" height="2" key="GridCell.Tab.0.center" timestamp="1590333746363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="86" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590325338670" />
-    <state width="1478" height="86" key="GridCell.Tab.0.left" timestamp="1590325338670">
+    <state width="1478" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590333746363" />
+    <state width="1478" height="2" key="GridCell.Tab.0.left" timestamp="1590333746363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="86" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590325338670" />
-    <state width="1478" height="86" key="GridCell.Tab.0.right" timestamp="1590325338670">
+    <state width="1478" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590333746363" />
+    <state width="1478" height="2" key="GridCell.Tab.0.right" timestamp="1590333746363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="86" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590325338670" />
-    <state width="1478" height="2" key="GridCell.Tab.1.bottom" timestamp="1590314701888">
+    <state width="1478" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590333746363" />
+    <state width="1478" height="2" key="GridCell.Tab.1.bottom" timestamp="1590333746458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590314701888" />
-    <state width="1478" height="2" key="GridCell.Tab.1.center" timestamp="1590314701888">
+    <state width="1478" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590333746458" />
+    <state width="1478" height="2" key="GridCell.Tab.1.center" timestamp="1590333746457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590314701888" />
-    <state width="1478" height="2" key="GridCell.Tab.1.left" timestamp="1590314701888">
+    <state width="1478" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590333746457" />
+    <state width="1478" height="2" key="GridCell.Tab.1.left" timestamp="1590333746457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590314701888" />
-    <state width="1478" height="2" key="GridCell.Tab.1.right" timestamp="1590314701888">
+    <state width="1478" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590333746457" />
+    <state width="1478" height="2" key="GridCell.Tab.1.right" timestamp="1590333746457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590314701888" />
+    <state width="1478" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590333746457" />
     <state x="584" y="347" key="ReplaceDuplicatesPrompt" timestamp="1589560396245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -284,6 +284,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Sorting/MergeSort.java</url>
           <line>13</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/TwoSum.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Searching/LocalMin.java</url>
