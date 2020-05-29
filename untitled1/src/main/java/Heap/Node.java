@@ -8,6 +8,7 @@ class Node implements Comparable<Node> {
         this.data = data;
         next = null;
     }
+    Node(){}
 
     @Override
     public int compareTo(Node o) {

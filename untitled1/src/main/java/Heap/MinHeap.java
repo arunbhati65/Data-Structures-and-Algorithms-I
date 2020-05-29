@@ -157,12 +157,4 @@ public class MinHeap {
         }
     }
 
-    public static void main(String args[]){
-        Integer[] arr={3,12,1,2,32,12,53,23};
-        sort(arr);
-        printAll(arr);
-
-    }
-
-
 }
