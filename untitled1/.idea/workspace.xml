@@ -30,20 +30,20 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lombok-1.14.8.jar!/" />
+    <property name="last_opened_file_path" value="D:/ticket" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoLinkedList">
-    <configuration name="ATOI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.String.ATOI" />
+  <component name="RunManager" selected="Application.SetMatrixZero">
+    <configuration name="DivisorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.DynamicProgramming.DivisorGame" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.String.*" />
+          <option name="PATTERN" value="main.java.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Stack.CheckParenthesis" />
+    <configuration name="ED" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Arrays.ED" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.Stack.*" />
+          <option name="PATTERN" value="main.java.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ListImpl.IntersectionOfTwoLinkedList" />
+    <configuration name="SetMatrixZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Matrix.SetMatrixZero" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ListImpl.*" />
+          <option name="PATTERN" value="main.java.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Heap.MergeKLists" />
+    <configuration name="SubArraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.DynamicProgramming.SubArraySumK" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.Heap.*" />
+          <option name="PATTERN" value="main.java.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Integer.Pow" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Searching.ThreeSum" />
       <module name="dataStructureRegression" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.Integer.*" />
+          <option name="PATTERN" value="main.java.Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntersectionOfTwoLinkedList" />
-        <item itemvalue="Application.Pow" />
-        <item itemvalue="Application.MergeKLists" />
-        <item itemvalue="Application.CheckParenthesis" />
-        <item itemvalue="Application.ATOI" />
+        <item itemvalue="Application.SetMatrixZero" />
+        <item itemvalue="Application.DivisorGame" />
+        <item itemvalue="Application.ED" />
+        <item itemvalue="Application.SubArraySumK" />
+        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -143,58 +143,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589692300637" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1590241814092">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1590912304395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590241814092" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590912304395" />
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589725683928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589725683928" />
-    <state x="1011" y="135" key="#xdebugger.evaluate" timestamp="1590393041392">
+    <state x="1011" y="135" key="#xdebugger.evaluate" timestamp="1591872096981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1011" y="135" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1590393041392" />
-    <state width="476" height="466" key="DebuggerActiveHint" timestamp="1590393116209">
+    <state x="1011" y="135" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1591872096981" />
+    <state width="476" height="466" key="DebuggerActiveHint" timestamp="1591872285374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="476" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1590393116209" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1589539844404">
+    <state width="476" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1591872285374" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1591681971977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589539844404" />
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom" timestamp="1590477795756">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591681971977" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590477795756" />
-    <state width="1493" height="150" key="GridCell.Tab.0.center" timestamp="1590477795756">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590477795756" />
-    <state width="1493" height="150" key="GridCell.Tab.0.left" timestamp="1590477795755">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590477795755" />
-    <state width="1493" height="150" key="GridCell.Tab.0.right" timestamp="1590477795756">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590477795756" />
-    <state width="1493" height="150" key="GridCell.Tab.1.bottom" timestamp="1590477795758">
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590477795758" />
-    <state width="1493" height="150" key="GridCell.Tab.1.center" timestamp="1590477795757">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590477795757" />
-    <state width="1493" height="150" key="GridCell.Tab.1.left" timestamp="1590477795757">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590477795757" />
-    <state width="1493" height="150" key="GridCell.Tab.1.right" timestamp="1590477795757">
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590477795757" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
     <state x="584" y="347" key="ReplaceDuplicatesPrompt" timestamp="1589560396245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -315,6 +315,111 @@
           <line>5</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tree/odnc.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tree/odnc.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/RottenOrangeTime.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/RottenOrangeTime.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/RottenOrangeTime.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/RottenOrangeTime.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/RottenOrangeTime.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/RottenOrangeTime.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/WordBooggle.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graph/WordBooggle.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GreedyAlgorithm/Activity2.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Searching/ThreeSum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Searching/ThreeSum.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Searching/ThreeSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DynamicProgramming/SubArraySumK.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/ED.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Matrix/SetMatrixZero.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Matrix/SetMatrixZero.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Matrix/SetMatrixZero.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Matrix/SetMatrixZero.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Matrix/SetMatrixZero.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Searching/LocalMin.java</url>
           <line>5</line>
@@ -344,6 +449,8 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="top.next" />
+        <watch expression="dummy" />
+        <watch expression="(int)Math.sqrt(compute)" />
       </configuration>
     </watches-manager>
   </component>
