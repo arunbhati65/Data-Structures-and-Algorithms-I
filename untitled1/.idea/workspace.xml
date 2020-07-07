@@ -37,7 +37,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.SetMatrixZero">
+  <component name="RunManager" selected="Application.PatternSearching">
     <configuration name="DivisorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.DynamicProgramming.DivisorGame" />
       <module name="dataStructureRegression" />
@@ -57,6 +57,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternSearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.String.PatternSearching" />
+      <module name="dataStructureRegression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,26 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Searching.ThreeSum" />
-      <module name="dataStructureRegression" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.Searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternSearching" />
         <item itemvalue="Application.SetMatrixZero" />
         <item itemvalue="Application.DivisorGame" />
         <item itemvalue="Application.ED" />
         <item itemvalue="Application.SubArraySumK" />
-        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -163,22 +163,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591681971977" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1592028527364">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1592307723165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1592028527364">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592307723165" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1592307723165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1592028527364">
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592307723165" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1592307723165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1592028527364">
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592307723165" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1592307723165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592028527364" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592307723165" />
     <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1592028527364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -419,6 +419,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Matrix/SetMatrixZero.java</url>
           <line>16</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Service.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Searching/LocalMin.java</url>
